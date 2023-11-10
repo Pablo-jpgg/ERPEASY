@@ -1,9 +1,10 @@
 @extends('layouts.app')
 
 @section('titulo')
-    Nosotros
+    Pedido de piezas
 @endsection
 
-@section('contenido')
-    <p>Nosotros uwu</p>
+@section('cotizador')
+    Cotizador
 @endsection
+
