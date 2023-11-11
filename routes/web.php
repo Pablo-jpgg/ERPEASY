@@ -25,3 +25,12 @@ Route::get('/tienda', function () {
 Route::get('/login', function () {
     return view('login');
 });
+Route::get('/acerca', function () {
+    return view('acerca');
+});
+Route::get('/contacto', function () {
+    return view('contacto');
+});
+Route::get('/servicios', function () {
+    return view('servicios');
+});
